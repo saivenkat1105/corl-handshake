@@ -17,7 +17,7 @@ Shake your Android phone, even with the screen off, and a gantry gripper drops i
 
 ## How the shake works
 
-The app runs a foreground service holding the accelerometer at ~50 Hz. A low-pass filter removes gravity, and a trigger needs 4 threshold crossings within 1.3 s (two firm back-and-forth shakes). The proximity sensor blocks triggers while the phone is in a pocket. Tune the threshold with the live IMU trace in the app.
+The app runs a foreground service holding the accelerometer at ~50 Hz. A low-pass filter removes gravity, and a trigger needs 4 threshold crossings within 2 s (two natural back-and-forth shakes; default trigger about 0.9 g). The proximity sensor blocks triggers while the phone is in a pocket. Tune the threshold with the live IMU trace in the app.
 
 ## Build
 

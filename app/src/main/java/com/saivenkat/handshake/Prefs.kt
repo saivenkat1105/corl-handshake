@@ -68,6 +68,6 @@ class Prefs(ctx: Context) {
     }
 
     companion object {
-        fun thresholdFor(sensitivity: Int): Float = 22f - sensitivity.coerceIn(0, 100) * 0.14f
+        fun thresholdFor(sensitivity: Int): Float = 14f - sensitivity.coerceIn(0, 100) * 0.10f
     }
 }

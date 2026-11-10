@@ -75,7 +75,7 @@ class ShakeDetector(private val onShake: (ShakeStats) -> Unit) : SensorEventList
 
     companion object {
         const val PEAKS = 4
-        const val WINDOW_MS = 1300L
+        const val WINDOW_MS = 2000L
         const val DEBOUNCE_MS = 90L
         const val COOLDOWN_MS = 4000L
     }
